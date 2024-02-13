@@ -9,7 +9,7 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="2.css">
-    <title>Pahinungod 2020</title>
+    <title>Pahinungod 2024</title>
 	<link rel="icon" type ="image/x-icon" href="ckc.png">
     <script type ="text/javascript" src="jquery.js"> </script>
 	<script type ="text/javascript" src="functions.js"> </script>
