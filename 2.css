@@ -1,0 +1,191 @@
+html{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    overflow: hidden;
+    background-image: url('bohol.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.background{
+    height: 105%;
+    width: 100%;
+    position: absolute;
+    opacity: 0.7;
+    background-color: white;
+}
+.background h1{
+    float: center;
+    font-size: 1000%;
+    font-family: cursive;
+    transform: translateY(-25%);
+    
+    
+}
+.background h2{
+    text-align: center;
+    font-size: 300%;
+    margin-top: -3%;
+    transform: translateY(-100%);
+    font-family: Brush Script MT;
+    
+}
+.container{
+    display: flex;
+    transform: translateY(8%);
+}
+
+.card{
+    font-family: sans-serif;
+    height: 250%;
+    width: 100%;
+    border-radius: 1%;
+    box-shadow: 5px 5px 15px black;
+    overflow: hidden;
+}
+
+.card img{
+    filter: brightness(50%);
+    height: 120%;
+    width: 100%;
+    border-radius: 1%;
+}
+
+.intro{
+    height: 90%;
+    width: 33.3%;
+    padding: .2%;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 2%;
+    bottom: 13.4%;
+    /* background-color: rgb(27, 27, 27, .5); */
+    color: white;
+    
+    transition: transform 0.3s ease;
+}
+h1{
+    letter-spacing: 1px;
+    text-align: center;
+ 
+    margin: 2.4%;
+    font-size: 150%;    
+}
+.intro h1{
+    color: white;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+    transform: translateY(300%);
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 10%;
+    margin: 2.4%;
+    font-size: 300%;
+}
+.pahi{
+    margin-top: -3%;
+}
+p{
+    font-size: 115%;
+    visibility: hidden;
+    opacity: 0;
+}
+span{
+    font-weight: bold;
+}
+button{
+    cursor: pointer;
+   
+    width: 100.5%;
+    
+    font-size: 120%;
+    padding: 4.5%;
+    justify-content: center;
+    background: transparent;
+ 
+    border: 0cap;
+}
+button:hover{
+    height: 1%;
+    transition: .5s;
+    color: white;
+    background-color: skyblue;
+   
+}
+
+.card:hover button{
+   
+  
+    
+    transform: translateY(-100%);
+    color: white;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
+
+.card:hover .intro{
+    
+    height: 70%;
+    border-radius: 1%;
+    transform: translateY(-30%);
+    color: white;
+    transform: scale(0.99);
+   
+    
+}
+.card:hover .intro h1{
+    color: white;
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+    transition: .7s;
+    transform: translateY(-185%);
+    font-size: 245%;
+
+}
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.card:hover img{
+    filter: blur(5px);
+    transition: .5s;
+    transform: scale(1.1) rotate(3deg);
+}
+
+.programs,.its,.ckcs{
+    height: 7.5%;
+    width: 4.5%;
+    transform: translate(950%,550%);
+
+}
+.qwe{
+    text-align: center;
+    float: right;
+    transform: translate(-418%,900%);
+
+}
+
+.banner{
+  height:12%;
+  width:10%;
+  transform:translate(100%, 100%);
+  border-radius:10%;
+}
